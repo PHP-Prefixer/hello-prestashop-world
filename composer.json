@@ -1,0 +1,29 @@
+{
+    "name": "php-prefixer/hello-prestashop-products",
+    "description": "Hello PrestaShop Products module. A module to showcase the PHP-Prefixer service. Install any library freely. PHP-Prefixer will manage your namespaces.",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "tightenco/collect": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PsProducts\\": "src/"
+        },
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "php-prefixer": {
+            "projectName": "Hello PrestaShop Products",
+            "prefixForNamespaces": "PPP",
+            "prefixForGlobalObjects": "PPP_",
+            "excludePaths": [
+                "bin/"
+            ]
+        }
+    }
+}
