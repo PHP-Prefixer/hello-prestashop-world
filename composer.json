@@ -18,10 +18,10 @@
     },
     "extra": {
         "php-prefixer": {
-            "projectName": "Hello PrestaShop Products",
-            "prefixForNamespaces": "PPP",
-            "prefixForGlobalObjects": "PPP_",
-            "excludePaths": [
+            "project-name": "Hello PrestaShop Products",
+            "namespaces-prefix": "PPP",
+            "global-scope-prefix": "PPP_",
+            "exclude-paths": [
                 "bin/"
             ]
         }
